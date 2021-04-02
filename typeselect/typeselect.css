@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.selectlist{
+    width: inherit;
+    position: absolute;
+}
+.selectlist button{
+    padding: 1px 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 0px;
+    /*border: 1px solid transparent;*/
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+}
+.selectlist button:hover,
+.selectlist button:active,
+.selectlist button:focus{
+    background-color: #2A7CEB;
+    color: #FFFFFF;
+    border: 1px solid #63cdff;
+}
+.toselect{
+    width: 100%;
+}
