@@ -39,8 +39,8 @@ error_reporting(0);
             <div class="col-md-2">
               <div style="margin-top:50px;">
                 <a href="../invoice?pagename=invoice" class="btn btn-danger" style="width:130px;">New Invoice</a><br /><br />
-                  <a href="../invoice/performa.php?pagename=invoice" class="btn btn-danger" style="width:130px;">Performa Invoice</a><br /><br />
-                  <a href="../invoice/quotation.php?pagename=invoice" class="btn btn-danger" style="width:130px;">New Quotation</a><br /><br />
+<!--                   <a href="../invoice/performa.php?pagename=invoice" class="btn btn-danger" style="width:130px;">Performa Invoice</a><br /><br />
+                  <a href="../invoice/quotation.php?pagename=invoice" class="btn btn-danger" style="width:130px;">New Quotation</a><br /><br /> -->
                   <a href="dues_payment.php?pagename=invoice" class="btn btn-warning"  style="width:130px;">Dues Payment</a><br /><br />
               </div>
             </div>
