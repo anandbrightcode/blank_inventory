@@ -143,12 +143,12 @@ input:read-only {
         <div style="margin-top:25px; z-index:10 " class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
         	<a href="../invoice?pagename=invoice" class="btn btn-danger" style="width:130px;">New Invoice</a>
         </div>
-        <div style="margin-top:25px; z-index:10 " class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+<!--         <div style="margin-top:25px; z-index:10 " class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
         	<a href="../invoice/performa.php?pagename=invoice" class="btn btn-danger" style="width:130px;">Performa Invoice</a>
         </div>
         <div style="margin-top:25px; z-index:10 " class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
         	<a href="../invoice/quotation.php?pagename=invoice" class="btn btn-danger" style="width:130px;">New Quotation</a>
-        </div>
+        </div> -->
         <div style="margin-top:25px; z-index:10" class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
         	<a href="dues_payment.php?pagename=invoice" class="btn btn-warning"  style="width:130px;">Dues Payment</a>
         </div>
