@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('connection.php');
   if(isset($_SESSION['user'])){
 	   	$role=$_SESSION['role'];
 	   	$user=$_SESSION['user'];
@@ -147,7 +148,7 @@ session_start();
 									$rs=mysqli_query($link,$sql);
 									while($result=mysqli_fetch_array($rs)){
 								?>
-                                <option value="<?php echo $result['city_state'];?>"><?php echo $result['city_state'];?></option>
+                                <option value="<?php echo $result['city_state'];?>" <?php if($result['city_state']=='Jharkhand'){ echo 'selected';} ?>><?php echo $result['city_state'];?></option>
                                 <?php 
 									}
 								?>
