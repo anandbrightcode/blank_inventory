@@ -111,7 +111,7 @@ session_start();
                                         <?php if($shop_details['gst']!=''){echo "GSTIN - ".$shop_details['gst']; }?><br />
                                         State : <?php echo $state['state'].", Code : ".$shop_details['state'] ?><br />
                                         Email : <?php echo $shop_details['email']; ?><br />
-                                        Website : www.suntech.net.in
+                                        
                                     </div>
                                 </td>
                             </tr>
